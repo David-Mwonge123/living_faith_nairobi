@@ -2,18 +2,25 @@
     margin: 0;
     padding: 0;
 }
-.body{
+:root {
+    --main: rgb(6, 86, 4);
+    --dark: #223d2a;
+    --bg: #f1f1f1;
+    --white: #ffffff;
+}
+.body {
     font-family: 'Times New Roman', Times, serif;
 }
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 30;
+    background: var(--main);
 }
-.navlinks{
+.navlinks {
     display: flex;
     gap: 4rem;
 }
