@@ -5,10 +5,15 @@
 .body{
     font-family: 'Times New Roman', Times, serif;
 }
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 30;
+}
+.navlinks{
+    display: flex;
+    gap: 4rem;
 }
