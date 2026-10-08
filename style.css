@@ -40,3 +40,22 @@
     color: var(--dark);
     font-size: larger;
 }
+#Home {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  padding: 4rem 5%;
+  align-items: center;
+  
+}
+#Home h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: var(--main);
+  line-height: 0.9;
+  grid-column: 1/-1;
+}
+.hero-map {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
