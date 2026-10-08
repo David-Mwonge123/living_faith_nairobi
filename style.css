@@ -16,21 +16,21 @@ body {
   min-height: 100vh;
 }
 
-/* Alignment */
+
 .page-wrap {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* GLASS NAVBAR */
+/* Glass Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.8rem;
   position: sticky;
-  top: 10px;
+  top: 5px;
   z-index: 30;
   margin-top: 20px;
 
@@ -155,7 +155,7 @@ body {
   transition: 0.2s;
 }
 .btn-secondary:hover {
-  background: rgba(164, 114, 5, 0.1);
+  background: rgba(96, 84, 2, 0.5);
 }
 
 .hero-map {
