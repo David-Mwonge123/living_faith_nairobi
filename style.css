@@ -33,5 +33,10 @@
 .logo {
     font-weight: 800;
     color: var(--bg);
+    font-size: large;
 }
-
+.logo span {
+    font-weight: 900;
+    color: var(--dark);
+    font-size: larger;
+}
