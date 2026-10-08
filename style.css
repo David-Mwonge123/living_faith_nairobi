@@ -1,58 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 :root {
-    --main: rgb(164, 114, 5);
-    --dark: #1A1607;
-    --bg: #fffbf0;
-    --white: #ffffff;
+  --main: rgb(164, 114, 5);
+  --dark: #1a1607;
+  --bg: #fffbf0;
+  --white: #ffffff;
 }
 .body {
-    font-family: 'Times New Roman', Times, serif;
-    background: var(--bg);
+  font-family: "Times New Roman", Times, serif;
+  background: var(--bg);
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 30;
-    background: var(--main);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--main);
 }
 .navlinks {
-    display: flex;
-    gap: 4rem;
+  display: flex;
+  gap: 4rem;
 }
 .navlinks a {
-    text-decoration: none;
-    color: var(--bg);
-    font-weight: 600;
+  text-decoration: none;
+  color: var(--bg);
+  font-weight: 600;
 }
 .logo {
-    font-weight: 800;
-    color: var(--bg);
-    font-size: large;
+  font-weight: 800;
+  color: var(--bg);
+  font-size: large;
 }
 .logo span {
-    font-weight: 900;
-    color: var(--dark);
-    font-size: larger;
+  font-weight: 900;
+  color: var(--dark);
+  font-size: larger;
 }
 #Home {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  padding: 4rem 5%;
+  padding: 2.5rem;
   align-items: center;
-  
 }
 #Home h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 6vw, 4rem);
   color: var(--main);
-  line-height: 0.9;
-  grid-column: 1/-1;
+  line-height: 0.8;
+}
+.hero-text {
+  font-size: large;
 }
 .hero-map {
   display: grid;
