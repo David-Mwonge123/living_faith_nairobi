@@ -16,7 +16,6 @@ body {
   min-height: 100vh;
 }
 
-
 .page-wrap {
   width: 90%;
   max-width: 1200px;
@@ -30,7 +29,7 @@ body {
   align-items: center;
   padding: 1rem 1.8rem;
   position: sticky;
-  top: 5px;
+  top: 12px;
   z-index: 30;
   margin-top: 20px;
 
