@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-/* Glass Navbar */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -33,7 +33,7 @@ body {
   margin-top: 20px;
 
   /* Glassmorphism */
-  background: rgba(255, 251, 240, 0.75);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(164, 114, 5, 0.18);
