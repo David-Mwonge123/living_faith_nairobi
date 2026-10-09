@@ -192,6 +192,12 @@ body {
   align-items: start;
   margin-top: 20px;
 }
+#About h1{
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--dark);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
 
 @media (max-width: 900px) {
   #Home {
