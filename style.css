@@ -83,7 +83,7 @@ body {
 }
 
 .card {
-  background: var(--bg);
+  background: rgb(255 255 255 / 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--dark);
