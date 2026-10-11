@@ -200,6 +200,10 @@ body {
   margin-top: 0.6rem;
   line-height: 1.6;
 }
+#Overview {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 
 @media (max-width: 900px) {
   #Home {
