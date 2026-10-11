@@ -23,12 +23,12 @@ body {
 
 /* Navbar */
 .navbar {
+  position: sticky;
+  top: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.8rem;
-  position: sticky;
-  top: 12px;
   z-index: 30;
   margin-top: 20px;
 
@@ -193,19 +193,19 @@ body {
   align-items: start;
   margin-top: 20px;
 }
-#About h1{
+#About h1 {
   font-size: clamp(2rem, 4vw, 3rem);
   color: var(--main);
   line-height: 1;
   margin-bottom: 1rem;
 }
-#About p{
+#About p {
   margin-top: 0.6rem;
   line-height: 1.6;
 }
 #Overview {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
   margin: 2.5rem 0;
 }
@@ -224,7 +224,7 @@ body {
   background: var(--dark);
   transform: translateY(-2px);
 }
-.card h3{
+.card h3 {
   color: var(--main);
   font-size: 1.1rem;
   font-weight: 700;
@@ -233,9 +233,30 @@ body {
 }
 .alerts {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.1rem;
   margin: 2.5rem 0;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.8rem;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(164, 114, 5, 0.18);
+  border-radius: 999px;
+  box-shadow: 0 8px 32px rgba(26, 22, 7, 0.08);
+}
+footer h3{
+  font-weight: 999;
+  color: var(--dark);
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+}
+footer a{
+  text-decoration: none;
 }
 @media (max-width: 900px) {
   #Home {
