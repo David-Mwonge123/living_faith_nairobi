@@ -78,7 +78,7 @@ body {
   padding: 3rem 0;
   align-items: start;
   margin-top: 20px;
-  background: url(images/Priest.avif);
+  background: url(images/holybible.avif);
   background-position: center;
   background-size: cover;
 }
@@ -101,12 +101,12 @@ body {
 
 #Home h1 {
   font-size: clamp(2rem, 4vw, 3rem);
-  color: var(--white);
+  color: var(--main);
   line-height: 1;
   margin-bottom: 1rem;
 }
 #Home strong {
-  color: var(--white);
+  color: var(--main);
   font-size: 1.1rem;
 }
 
@@ -117,13 +117,13 @@ body {
   font-weight: 1000;
   text-decoration: none;
   color: var(--dark);
-  border-bottom: 3px solid var(--dark);
+  border-bottom: 3px solid var(--main);
   padding-bottom: 2px;
 }
 .service-block p {
   margin-top: 0.6rem;
   line-height: 1.6;
-  color: var(--white);
+  color: var(--dark);
   font-weight: 1000;
 }
 
@@ -149,7 +149,7 @@ body {
 }
 .btn-secondary {
   background: transparent;
-  color: var(--dark);
+  color: var(--main);
   border: 3px solid var(--dark);
   padding: 12px 22px;
   border-radius: 999px;
