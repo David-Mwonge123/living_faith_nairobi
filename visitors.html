@@ -23,6 +23,115 @@
           <a href="contact.html">Contact</a>
         </div>
       </nav>
+      <div class="container">
+        <div class="card">
+          <h2>New Here? Welcome!</h2>
+          <p><i>Just say Hi and we will text you right back!</i></p>
+          <br />
+          <form>
+            <fieldset>
+              <legend>Personal Information</legend>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  aria-required="true"
+                  aria-label="Your full name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  aria-required="true"
+                  aria-label="Your email address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone number:</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  required
+                  aria-required="true"
+                  aria-label="Your phone number"
+                />
+              </div>
+              <label for="message" style="color: rgb(164 114 5 / 1)"
+                >How can we help?:</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                cols="50"
+                rows="5"
+              ></textarea
+              ><br />
+              <button style="background-color: rgb(164 114 5)">SEND</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="card">
+          <h2>Serve With Us</h2>
+          <p><i>Know the church? Join a team!</i></p>
+          <br />
+          <form action="">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              aria-required="true"
+              aria-label="Your full name"
+            />
+            <br />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              aria-required="true"
+              aria-label="Your email address"
+            /> <br>
+            <label for="ministry">Where would you like to serve?:</label>
+             <select id="ministry" name="ministry">
+                <option value="kids">Kids</option>
+                <option value="worship">Worship</option>
+                <option value="usher">Usher</option>
+                <option value="outreach">Outreach</option>
+              </select> <br>
+               <button style="background-color: rgb(164 114 5)">Volunteer</button>
+          </form>
+        </div>
+      </div>
+       <footer>
+        <h3>Living Faith Nairobi</h3>
+
+        <p>
+          Follow us on:
+          <a href="#" aria-label="visit our facebook page"
+            ><i class="fa-brands fa-square-facebook"></i></a
+          >/
+          <a href="#" aria-label="visit our instagram page"
+            ><i class="fa-brands fa-square-instagram"></i></a
+          >/
+          <a href="#" aria-label="visit our tiktok page"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </p>
+
+        <p>&copy; 2026 Living Faith Nairobi. All rights reserved</p>
+      </footer>
     </div>
   </body>
 </html>
