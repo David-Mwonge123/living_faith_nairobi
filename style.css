@@ -129,12 +129,7 @@ body {
   font-size: large;
 }
 
-.cta-row {
-  display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
+
 .btn-primary {
   background: var(--main);
   color: var(--white);
