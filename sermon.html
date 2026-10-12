@@ -10,16 +10,24 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
     />
     <style>
-        .container{
-            max-width: 1100px;
-            margin: auto;
-            padding: 1.8rem;
-        }
-        .sermons{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.2rem;
-        }
+      .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 1.8rem;
+      }
+      .sermons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+      }
+      .sermon-info {
+        padding: 1rem;
+      }
+      .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
     </style>
   </head>
   <body>
@@ -34,17 +42,58 @@
       </div>
     </nav>
     <div class="container">
-        <h1>Sermon Library</h1>
-        <p style="margin-bottom: 1rem;">Filter by Book, Series, Pastor.</p>
-        <div class="sermons">
-         <div class="card"><img src="" alt="">
-           <div class="sermon-info">
-              <h2>There is One God!</h2>
-              <small>Psalm 53 | Oct 5th</small>
-              <p>Pst. James Mwangi</p>
-           </div>
-         </div>
+      <h1>Sermon Library</h1>
+      <p style="margin-bottom: 1rem">Filter by Book, Series, Pastor.</p>
+      <div class="sermons">
+        <div class="card">
+          <img src="" alt="" />
+          <div class="sermon-info">
+            <h2>There is One God!</h2>
+            <small>Psalm 53 | OCT 11TH</small>
+            <p>Pst. James Mwangi</p>
+          </div>
         </div>
+        <div class="card">
+          <img src="" alt="" />
+          <div class="sermon-info">
+            <h2>Living Faith!</h2>
+            <small>Faith Series | SEP 27TH</small>
+            <p>Pst. Mary Barongo</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="" alt="" />
+          <div class="sermon-info">
+            <h2>The God Who Sees!</h2>
+            <small>Guest Speaker | OCT 4TH</small>
+            <p>Pst. Mike Mbuva</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="" alt="" />
+          <div class="sermon-info">
+            <h2>The Acts of The Apostles!</h2>
+            <small>Acts Series | SEP 13TH</small>
+            <p>Pst. Tony Njau</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="" alt="" />
+          <div class="sermon-info">
+            <h2>The Church of God!</h2>
+            <small>1Timothy 1-3 | AUG 23RD</small>
+            <p>Pst. James Mwangi</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="" alt="" />
+          <div class="sermon-info">
+            <h2>Woman of God!</h2>
+            <small>Women's Ministry | SEP 2OTH</small>
+            <p>Pst. Mary Barongo</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
