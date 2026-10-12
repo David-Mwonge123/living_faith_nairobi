@@ -276,6 +276,21 @@ footer a {
   line-height: 1;
   margin-bottom: 1rem;
 }
+.btn-sermon{
+   background: var(--main);
+  color: var(--white);
+  padding: 12px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: 0.2s;
+}
+.btn-sermon:hover{
+  background: var(--dark);
+  transform: translateY(-2px);
+}
 @media (max-width: 900px) {
   #Home {
     grid-template-columns: 1fr;
