@@ -73,11 +73,14 @@ body {
 /* HERO AS CARDS */
 #Home {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
   gap: 2rem;
   padding: 3rem 0;
   align-items: start;
   margin-top: 20px;
+
+  background: url(images/Community.avif);
+  background-size: cover;
 }
 
 .card {
@@ -192,6 +195,8 @@ body {
   padding: 3rem 0;
   align-items: start;
   margin-top: 20px;
+  background: url(images/Study.avif);
+  background-size: cover;
 }
 #About h1 {
   font-size: clamp(2rem, 4vw, 3rem);
@@ -249,14 +254,27 @@ footer {
   border-radius: 999px;
   box-shadow: 0 8px 32px rgba(26, 22, 7, 0.08);
 }
-footer h3{
-  font-weight: 999;
+footer h3 {
+  font-weight: 900;
   color: var(--dark);
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 3px;
 }
-footer a{
+footer a {
   text-decoration: none;
+  color: var(--main);
+}
+.leadership {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+.leadership h2 {
+  font-size: clamp(1rem, 3vw, 2rem);
+  color: var(--main);
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 @media (max-width: 900px) {
   #Home {
