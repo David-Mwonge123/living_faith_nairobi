@@ -131,7 +131,6 @@ body {
   font-size: large;
 }
 
-
 .btn-primary {
   background: var(--main);
   color: var(--white);
@@ -175,7 +174,6 @@ body {
   font-size: 0.9rem;
   letter-spacing: 1px;
   font-weight: 1000;
-
 }
 .hero-map iframe {
   width: 100%;
@@ -319,9 +317,29 @@ footer a {
     grid-template-columns: 1fr;
   }
 }
-img{
-  max-width:100%;height:auto
+.hero h1 {
+  font-size: 2.8rem;
 }
-.container{
-  width:100%;overflow:hidden
+.sermons,
+.leadership,
+.grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+@media(max-width: 600px){
+  .navbar{
+    flex-wrap:wrap;
+    gap:0.8rem;
+    border-radius:24px ;
+    top:8px;
+    margin:12px 12px 0 12px ;
+    padding:0.8rem 1.2rem ;
+  }
 }
