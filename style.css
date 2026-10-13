@@ -313,8 +313,15 @@ footer a {
   background: var(--dark);
   transform: translateY(-2px);
 }
+/* Responsiveness */
 @media (max-width: 900px) {
   #Home {
     grid-template-columns: 1fr;
   }
+}
+img{
+  max-width:100%;height:auto
+}
+.container{
+  width:100%;overflow:hidden
 }
