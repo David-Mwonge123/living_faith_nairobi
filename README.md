@@ -2,7 +2,7 @@
 
 An active and interactive church website capstone project for Living Faith Nairobi, a church based in Kilimani, Nairobi.
 
-**Live Link:** 
+**Live Link:** https://david-mwonge123.github.io/living_faith_nairobi/
 
 ## Overview
 Living Faith Nairobi website is designed to be warm, welcoming and functional. The goal is to create a modern church online home where a first-time visitor feels safe, members find information quickly, and giving details are easily accessible.
