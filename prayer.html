@@ -4,8 +4,147 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PRAYER REQUESTS: LF NAIROBI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background: var(--bg);
+        color: var(--dark);
+      }
+
+      .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 3rem 1.8rem;
+      }
+      h1 {
+        font-size: 3.5rem;
+      }
+      .radio-group {
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+      }
+      .radio-pill {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.4rem 1rem;
+        border: 1px solid var(--dark);
+        border-radius: 999px;
+        background-color: var(--main);
+        color: white;
+      }
+
+      label.head {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--dark);
+      }
+      input,
+      textarea {
+        width: 100%;
+        background: transparent;
+        border: none;
+        border-bottom: 1.5px solid var(--dark);
+        padding: 0.9rem 0;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+      }
+
+      textarea {
+        border: 1.5px solid var(--dark);
+        border-radius: 16px;
+        padding: 1rem;
+      }
+      .btn-form {
+        background: var(--main);
+        color: white;
+        padding: 0.9rem 1.8rem;
+        border-radius: 999px;
+        border: none;
+        width: 100%;
+        font-weight: 600;
+      }
+    </style>
   </head>
   <body>
-    <form action=""></form>
+    <div class="page-wrap">
+      <nav class="navbar">
+        <div class="logo">LivingFaith<br /><span>NAIROBI</span></div>
+        <div class="navlinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="sermon.html">Sermons</a>
+          <a href="ministry.html">Ministries</a>
+          <a href="announcement.html">Announcements</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <div class="container">
+        <span
+          style="
+            color: var(--main);
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            font-weight: 600;
+          "
+          >PRAYER WALL</span
+        >
+        <h1>We pray for one another!</h1>
+        <p style="color: var(--dark); margin-top: 0.6rem">
+          Private : Only pastors see it. Public : Shared anonymously for church
+          to pray. You are not alone!
+        </p>
+
+        <form style="margin-top: 2rem">
+          <label class="head">Your Name</label>
+          <input type="text" placeholder="Optional..." />
+
+          <label class="head">Prayer Request</label>
+          <textarea
+            rows="5"
+            placeholder="Share what is on your heart..."
+            required
+            aria-required="true"
+          ></textarea>
+
+          <label class="head">Visibility</label>
+          <div class="radio-group">
+            <label class="radio-pill"
+              ><input type="radio" name="privacy" value="private" />Private</label
+            >
+            <label class="radio-pill"
+              ><input type="radio" name="privacy" value="public" />Public</label
+            >
+          </div>
+
+          <button class="btn-form">Submit Request</button>
+        </form>
+      </div>
+      <footer style="margin-top: 20px">
+        <h3>Living Faith Nairobi</h3>
+
+        <p>
+          Follow us on:
+          <a href="#" aria-label="visit our facebook page"
+            ><i class="fa-brands fa-square-facebook"></i></a
+          >/
+          <a href="#" aria-label="visit our instagram page"
+            ><i class="fa-brands fa-square-instagram"></i></a
+          >/
+          <a href="#" aria-label="visit our tiktok page"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </p>
+
+        <p>&copy; 2026 Living Faith Nairobi. All rights reserved</p>
+      </footer>
+    </div>
   </body>
 </html>
