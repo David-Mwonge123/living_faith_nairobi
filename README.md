@@ -23,6 +23,9 @@ The design uses a glassmorphism theme inspired by the navbar and also root varia
 ## Problem Statement 
 Living Faith Nairobi website was developed to ensure uniformity and oneness in church in matters of information. It is very easy for information to get lost in informal platforms like whatsapp. The Living Faith website provides accurate information on announcements, sermons, giving details and the contacts and information of the church leaders. There is a visitors page where if you are a first time visitor or a regular member, you can still also be able to interact with the website without necessarily being put on the spotlight. There's also a prayer request page for both private and public requests that is very anonymous to accomodate the individuals who are not comfortable putting their information out there publicly.
 
+## Target Audience
+The Living Faith Nairobi mainly targets the church members who want to be actively part of the church but are forced by circumstances to be virtual members. The website ensures that no one is left behind by the announcements and information passed around on major days like Sundays. The website is also very welcoming to new members or just passers-by who want to learn more about the Living Faith Nairobi church.
+
 ## Features
 - **8 Required Pages:** Landing, About, Ministries, Announcements, Sermon Library, Visitors (2 forms), Prayer Requests (private/public), Contact/Directory.
 - **Sticky Glass Navbar:** Same theme across all pages.
