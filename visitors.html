@@ -11,7 +11,7 @@
     />
     <style>
       body {
-        font-family:"Times New Roman", Times, serif;
+        font-family: "Times New Roman", Times, serif;
         background: var(--bg);
         color: var(--dark);
       }
@@ -25,7 +25,7 @@
         margin: 0 auto;
         padding: 3rem 1.8rem;
       }
-      
+
       .form-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -48,19 +48,19 @@
         background: transparent;
         border: none;
         border-bottom: 1.5px solid var(--dark);
-        padding: 0.9rem  0.7rem;
+        padding: 0.9rem 0.7rem;
         margin-bottom: 1.6rem;
         font-size: 1rem;
         transition: 0.3s;
       }
-      
+
       textarea {
         border: 1.5px solid var(--dark);
         border-radius: 16px;
         padding: 1rem;
         margin-top: 0.5rem;
       }
-      
+
       .btn-form {
         background: var(--main);
         color: white;
@@ -82,96 +82,135 @@
           grid-template-columns: 1fr;
         }
       }
-      
     </style>
   </head>
   <body>
     <div class="page-wrap">
-      <nav class="navbar">
-        <div class="logo">LivingFaith<br /><span>NAIROBI</span></div>
-        <div class="navlinks">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="sermon.html">Sermons</a>
-          <a href="ministry.html">Ministries</a>
-          <a href="announcement.html">Announcements</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </nav>
-      <div class="container">
-        <span class="header">You belong here</span>
-        <h1 style="font-size: 3.8rem; line-height: 0.9; margin-top: 0.5rem">
-          Just family.
-        </h1>
-        <div class="form-grid">
-          <div>
-            <h2 style="font-size: 2rem">First time visitor</h2>
-            <p style="color: var(--dark); margin: 0.8rem 0 1.8rem">
-              We won't call you out. Fill this and we will send a warm welcome
-              text.
-            </p>
-            <form>
-              <label>Full Name</label
-              ><input type="text" placeholder="Your Full Name" required aria-required="true" />
-              <label>Phone / WhatsApp</label
-              ><input type="tel" placeholder="+254..." required aria-required="true"/>
-              <label>Visit Type</label
-              ><select>
-                <option>First time</option>
-                <option>Second time</option>
-                <option>Returning after long</option>
-              </select>
-              <label>How did you hear about us?</label
-              ><input
-                type="text"
-                placeholder="Friend, Instagram,..."
-                required aria-required="true"
-              />
-              <label>Prayer or anything you need?</label
-              ><textarea rows="4" placeholder="Optional..."></textarea>
-              <button class="btn-form">Send Quietly</button>
-            </form>
+      <header>
+        <nav class="navbar">
+          <div class="logo">LivingFaith<br /><span>NAIROBI</span></div>
+          <div class="navlinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="sermon.html">Sermons</a>
+            <a href="ministry.html">Ministries</a>
+            <a href="announcement.html">Announcements</a>
+            <a href="contact.html">Contact</a>
           </div>
-          <div>
-            <h2 style="font-size: 2rem">Serve with us</h2>
-            <p style="color: var(--dark); margin: 0.8rem 0 1.8rem">
-              You know the church well? Join any ministry you desire to serve
-              in: Kids, Worship, Usher, Media, Outreach.
-            </p>
-            <form>
-              <label>Full Name</label
-              ><input type="text" placeholder="Your Full Name" required aria-required="true"/>
-              <label>How long at Living Faith?</label
-              ><select>
-                <option>Less than 6 months</option>
-                <option>6 months</option>
-                <option>6-12 months</option>
-                <option>1+ years</option>
-              </select>
-              <label>Ministry</label
-              ><select>
-                <option>Kids - Little Lights</option>
-                <option>Worship</option>
-                <option>Usher & Hospitality</option>
-                <option>Media & Sound</option>
-                <option>Outreach & Missions</option>
-              </select>
-              <label>Why this ministry?</label
-              ><textarea rows="4" required aria-required="true" placeholder="Fill in Here..."></textarea>
-              <button
-                class="btn-form"
-                style="
-                  background: transparent;
-                  color: var(--main);
-                  border: 1.5px solid var(--main);
-                "
-              >
-                Volunteer
-              </button>
-            </form>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+          <span class="header">You belong here</span>
+          <h1 style="font-size: 3.8rem; line-height: 0.9; margin-top: 0.5rem">
+            Just family.
+          </h1>
+          <div class="form-grid">
+            <div>
+              <h2 style="font-size: 2rem">First time visitor</h2>
+              <p style="color: var(--dark); margin: 0.8rem 0 1.8rem">
+                We won't call you out. Fill this and we will send a warm welcome
+                text.
+              </p>
+              <form>
+                <label for="name">Full Name</label
+                ><input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Your Full Name"
+                  required
+                  aria-required="true"
+                />
+                <label for="number">Phone / WhatsApp</label
+                ><input
+                  id="number"
+                  name="number"
+                  type="tel"
+                  placeholder="+254..."
+                  required
+                  aria-required="true"
+                />
+                <label for="visit-type">Visit Type</label
+                ><select>
+                  <option>First time</option>
+                  <option>Second time</option>
+                  <option>Returning after long</option>
+                </select>
+                <label for="text">How did you hear about us?</label
+                ><input
+                  id="text"
+                  name="text-message"
+                  type="text"
+                  placeholder="Friend, Instagram,..."
+                  required
+                  aria-required="true"
+                />
+                <label for="text">Prayer or anything you need?</label
+                ><textarea
+                  id="text"
+                  name="text"
+                  rows="4"
+                  placeholder="Optional..."
+                ></textarea>
+                <button class="btn-form">Send Quietly</button>
+              </form>
+            </div>
+            <div>
+              <h2 style="font-size: 2rem">Serve with us</h2>
+              <p style="color: var(--dark); margin: 0.8rem 0 1.8rem">
+                You know the church well? Join any ministry you desire to serve
+                in: Kids, Worship, Usher, Media, Outreach.
+              </p>
+              <form>
+                <label for="name">Full Name</label
+                ><input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Your Full Name"
+                  required
+                  aria-required="true"
+                />
+                <label for="duration">How long at Living Faith?</label
+                ><select>
+                  <option>Less than 6 months</option>
+                  <option>6 months</option>
+                  <option>6-12 months</option>
+                  <option>1+ years</option>
+                </select>
+                <label for="ministry-type">Ministry</label
+                ><select>
+                  <option>Kids - Little Lights</option>
+                  <option>Worship</option>
+                  <option>Usher & Hospitality</option>
+                  <option>Media & Sound</option>
+                  <option>Outreach & Missions</option>
+                </select>
+                <label for="text">Why this ministry?</label
+                ><textarea
+                  id="text"
+                  rows="4"
+                  required
+                  aria-required="true"
+                  placeholder="Fill in Here..."
+                ></textarea>
+                <button
+                  class="btn-form"
+                  style="
+                    background: transparent;
+                    color: var(--main);
+                    border: 1.5px solid var(--main);
+                  "
+                >
+                  Volunteer
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
+      </main>
+
       <footer style="margin-top: 20px">
         <h3>Living Faith Nairobi</h3>
 
