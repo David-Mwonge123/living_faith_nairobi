@@ -75,60 +75,74 @@
   </head>
   <body>
     <div class="page-wrap">
-      <nav class="navbar">
-        <div class="logo">LivingFaith<br /><span>NAIROBI</span></div>
-        <div class="navlinks">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="sermon.html">Sermons</a>
-          <a href="ministry.html">Ministries</a>
-          <a href="announcement.html">Announcements</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </nav>
-      <div class="container">
-        <span
-          style="
-            color: var(--main);
-            font-size: 0.8rem;
-            letter-spacing: 0.15em;
-            font-weight: 600;
-          "
-          >PRAYER WALL</span
-        >
-        <h1>We pray for one another!</h1>
-        <p style="color: var(--dark); margin-top: 0.6rem">
-          Private : Only pastors see it. Public : Shared anonymously for church
-          to pray. You are not alone!
-        </p>
-
-        <form style="margin-top: 2rem">
-          <label class="head" for="name">Your Name</label>
-          <input type="text" id="name" name="name" placeholder="Optional..." />
-
-          <label class="head" for="text">Prayer Request</label>
-          <textarea
-          id="text"
-          name="prayer-request-text"
-            rows="5"
-            placeholder="Share what is on your heart..."
-            required
-            aria-required="true"
-          ></textarea>
-
-          <label class="head">Visibility</label>
-          <div class="radio-group">
-            <label class="radio-pill" for="visibility"
-              ><input type="radio" id="private" value="private" />Private</label
-            >
-            <label class="radio-pill"
-              ><input type="radio" id="public" value="public" />Public</label
-            >
+      <header>
+        <nav class="navbar">
+          <div class="logo">LivingFaith<br /><span>NAIROBI</span></div>
+          <div class="navlinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="sermon.html">Sermons</a>
+            <a href="ministry.html">Ministries</a>
+            <a href="announcement.html">Announcements</a>
+            <a href="contact.html">Contact</a>
           </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+          <span
+            style="
+              color: var(--main);
+              font-size: 0.8rem;
+              letter-spacing: 0.15em;
+              font-weight: 600;
+            "
+            >PRAYER WALL</span
+          >
+          <h1>We pray for one another!</h1>
+          <p style="color: var(--dark); margin-top: 0.6rem">
+            Private : Only pastors see it. Public : Shared anonymously for
+            church to pray. You are not alone!
+          </p>
 
-          <button class="btn-form">Submit Request</button>
-        </form>
-      </div>
+          <form style="margin-top: 2rem">
+            <label class="head" for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Optional..."
+            />
+
+            <label class="head" for="text">Prayer Request</label>
+            <textarea
+              id="text"
+              name="prayer-request-text"
+              rows="5"
+              placeholder="Share what is on your heart..."
+              required
+              aria-required="true"
+            ></textarea>
+
+            <label class="head">Visibility</label>
+            <div class="radio-group">
+              <label class="radio-pill" for="visibility"
+                ><input
+                  type="radio"
+                  id="private"
+                  value="private"
+                />Private</label
+              >
+              <label class="radio-pill"
+                ><input type="radio" id="public" value="public" />Public</label
+              >
+            </div>
+
+            <button class="btn-form">Submit Request</button>
+          </form>
+        </div>
+      </main>
+
       <footer style="margin-top: 20px">
         <h3>Living Faith Nairobi</h3>
 
