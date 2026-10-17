@@ -33,9 +33,9 @@ The design uses a glassmorphism theme inspired by the navbar and also root varia
 ## Pages Breakdown
 1. **index.html** - Hero, mission, beliefs, upcoming events, joining,past sermons and giving CTA buttons.
 2. **about.html** - Mission in depth, history of the church, 3 pastor leaders of the church with images.
-3. **ministries.html** - Men's (TUMAINI), Women's (NEEMA), Youth (THE HUB), Kids (LITTLE LIGHTS).
-4. **announcements.html** - Events, building fund, weekly schedule.
-5. **sermons.html** - Sermon library in card style.
+3. **ministry.html** - Men's (TUMAINI), Women's (NEEMA), Youth (THE HUB), Kids (LITTLE LIGHTS).
+4. **announcement.html** - Events, building fund, weekly schedule.
+5. **sermon.html** - Sermon library in card style.
 6. **visitors.html** - Two forms: first-time visitor & serve team form.
 7. **prayer.html** - Form with Private or Public radio option for anonymity.
 8. **contact.html** - Contact form and a full church directory to reach the leaders or main office easily.
