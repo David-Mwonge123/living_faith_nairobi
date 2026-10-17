@@ -52,5 +52,8 @@ The design uses a glassmorphism theme inspired by the navbar and also root varia
 1. Clone repo: `git clone https://github.com/David-Mwonge123/living_faith_nairobi`
 2. Open `index.html` in browser or use Live Server in VS Code.
 
+## Desktop Responsive
+![Desktop view](images/desktop.png.png)
+
 ## Author
 David Mwonge - Capstone Project - 2026
