@@ -103,11 +103,13 @@
         </p>
 
         <form style="margin-top: 2rem">
-          <label class="head">Your Name</label>
-          <input type="text" placeholder="Optional..." />
+          <label class="head" for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Optional..." />
 
-          <label class="head">Prayer Request</label>
+          <label class="head" for="text">Prayer Request</label>
           <textarea
+          id="text"
+          name="prayer-request-text"
             rows="5"
             placeholder="Share what is on your heart..."
             required
@@ -116,11 +118,11 @@
 
           <label class="head">Visibility</label>
           <div class="radio-group">
-            <label class="radio-pill"
-              ><input type="radio" name="privacy" value="private" />Private</label
+            <label class="radio-pill" for="visibility"
+              ><input type="radio" id="private" value="private" />Private</label
             >
             <label class="radio-pill"
-              ><input type="radio" name="privacy" value="public" />Public</label
+              ><input type="radio" id="public" value="public" />Public</label
             >
           </div>
 
