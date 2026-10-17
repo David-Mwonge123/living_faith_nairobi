@@ -327,7 +327,7 @@ footer a {
   }
   .container {
     width: 100%;
-    overflow: none;
+    overflow: hidden;
   }
 }
 @media (max-width: 600px) {
@@ -347,7 +347,7 @@ footer a {
     font-size: 0.85rem;
     padding-top: 0.6rem;
     border-top: 1px solid var(--main);
-    overflow-x: none;
+    overflow-x: hidden;
   }
   .sermons,
   .leadership,
