@@ -53,7 +53,9 @@ The design uses a glassmorphism theme inspired by the navbar and also root varia
 2. Open `index.html` in browser or use Live Server in VS Code.
 
 ## Desktop Responsive
-![Desktop view](images/desktop.png.png)
+![Desktop view](images/desktop.png)
+## Mobile Responsive
+![Mobile view](images/mobile.png)
 
 ## Author
 David Mwonge - Capstone Project - 2026
