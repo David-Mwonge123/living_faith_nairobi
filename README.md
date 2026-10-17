@@ -60,7 +60,7 @@ The Living Faith Nairobi mainly targets the church members who want to be active
 ## Desktop Responsive
 ![Desktop view](images/desktop.png)
 ## Mobile Responsive
-![Mobile view](images/mobile.png)
+![Mobile view](images/phone.png)
 
 ## Author
 David Mwonge - Capstone Project - 2026
